@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',   
+  baseURL: 'https://blog-app-backend-x1l8.onrender.com/api',   
 });
 
 // Auth

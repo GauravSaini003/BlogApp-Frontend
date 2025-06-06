@@ -1,12 +1,62 @@
-# React + Vite
+Mini Blogging Platform - Frontend
+This is the Frontend for the Mini Blogging Platform.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 Objective (Frontend):
+✅ Implement User Dashboard
+✅ Implement Admin Panel
+✅ Implement Public Blog Page
 
-Currently, two official plugins are available:
+🚀 Features Achieved:
+✅ User can:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sign Up & Log In (JWT-based authentication)
 
-## Expanding the ESLint configuration
+Create a Blog Post (with optional Image Upload)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+View own Posts (My Posts Page)
+
+Update & Delete own Posts
+
+✅ Public Blog Page:
+
+View all public posts (Homepage)
+
+✅ Admin can:
+
+View list of all Users
+
+View list of all Posts
+
+✅ Tech Used:
+
+React.js
+
+Context API (for Auth State)
+
+React Router DOM
+
+Axios
+
+Tailwind CSS
+
+✅ Authentication:
+
+JWT token stored and passed with API calls
+
+Protected Routes for Dashboard and Admin Panel
+
+✅ API calls implemented:
+
+/api/auth/signup
+
+/api/auth/login
+
+/api/posts
+
+/api/posts/myposts
+
+/api/posts/create
+
+/api/posts/:id (Update/Delete)
+
+/api/admin/users
